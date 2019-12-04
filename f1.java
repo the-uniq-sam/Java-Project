@@ -24,7 +24,7 @@ public class f1 extends javax.swing.JFrame {
         setBackground(new java.awt.Color(205, 103, 103));
 
         jButton1.setBackground(new java.awt.Color(255, 245, 245));
-        jButton1.setFont(new java.awt.Font("Noto Sans", 3, 14)); // NOI18N
+        jButton1.setFont(new java.awt.Font("Noto Sans", 3, 14));
         jButton1.setForeground(new java.awt.Color(21, 9, 9));
         jButton1.setText("CHECK YOUR ATTENDENCE");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -33,7 +33,7 @@ public class f1 extends javax.swing.JFrame {
             }
         });
 
-        jButton2.setFont(new java.awt.Font("Noto Sans", 3, 14)); // NOI18N
+        jButton2.setFont(new java.awt.Font("Noto Sans", 3, 14)); 
         jButton2.setForeground(new java.awt.Color(19, 7, 7));
         jButton2.setText("UPDATE YOUR ATTENDENCE");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -42,7 +42,7 @@ public class f1 extends javax.swing.JFrame {
             }
         });
 
-        jLabel1.setFont(new java.awt.Font("Noto Sans", 3, 14)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Noto Sans", 3, 14));
         jLabel1.setForeground(new java.awt.Color(19, 7, 7));
         jLabel1.setText("         ATTENDENCE SYSTEM");
 
@@ -75,10 +75,10 @@ public class f1 extends javax.swing.JFrame {
 
         pack();
     }
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-            new f2().setVisible(true);        // TODO add your handling code here:
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
+            new f2().setVisible(true);        
     }
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {
             new f3().setVisible(true);
         
     }
