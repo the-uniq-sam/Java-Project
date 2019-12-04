@@ -1,4 +1,4 @@
-#Java Project
+***Java Project***
 
 Extract the project and open terminal in the same folder.
 
